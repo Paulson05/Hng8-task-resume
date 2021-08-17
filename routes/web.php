@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\BACKEND\ContactController;
+use App\Http\Controllers\FRONTEND\FrontendController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('resume');
+    return view('frontend.pages.welcome')->name('homepage');
 });
 Route::view( '/dashboard','backend.template');
+Route::get('/homepage', [FrontendController::class, 'homePage'])->name('home.page');
+
+Route::get('/resume', [FrontendController::class, 'resume'])->name('resume');
+Route::get('/contactus', [FrontendController::class, 'contactUs'])->name('contact');
+Route::post('/postcontact', [ContactController::class, 'postContact'])->name('post.contact');
+
