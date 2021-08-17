@@ -1,4 +1,5 @@
 @extends('frontend.defaults')
+@section('title', '| home')
 @section('content')
 
     <!-- Header Section End -->
