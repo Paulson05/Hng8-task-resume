@@ -15,11 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.pages.welcome')->name('homepage');
-});
+
 Route::view( '/dashboard','backend.template');
-Route::get('/homepage', [FrontendController::class, 'homePage'])->name('home.page');
+Route::get('/', [FrontendController::class, 'homePage'])->name('home.page');
 
 Route::get('/resume', [FrontendController::class, 'resume'])->name('resume');
 Route::get('/contactus', [FrontendController::class, 'contactUs'])->name('contact');
