@@ -4,6 +4,17 @@
 <div class="hero-section section overlay" style="background-image: url('img/download.png')">
    <div class="container ">
 
+       <div class="col-md-12">
+           @if($errors->any())
+               <div class="alert alert-danger">
+                   <ul>
+                       @foreach($errors->all() as $error)
+                           <li>{{$error}}</li>
+                       @endforeach
+                   </ul>
+               </div>
+           @endif
+       </div>
        <form action="{{route('post.contact')}}" method="POST">
            @csrf
            <h4 class="text-center text-info">contact us</h4>
@@ -35,4 +46,5 @@
        </form>
    </div>
 </div>
+
 @endsection

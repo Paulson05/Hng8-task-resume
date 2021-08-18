@@ -7,8 +7,13 @@
     <div class="hero-section section overlay" style="background-image: url('img/download.png')">
         <div class="container">
             <div class="row">
+
                 <div class="hero-content text-center col-12">
+                    <div class="col-12-md">
+                        @include('frontend.partials.notification')
+                    </div>
                     <h1><strong>I'am Onyebuchi okofu</strong>Backend Developer</h1>
+
                     <a class="buy-btn" href="{{route('contact')}}">Contact me</a>
                 </div>
             </div>
