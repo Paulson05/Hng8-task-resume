@@ -10,4 +10,8 @@ class AdminController extends Controller
     public function getContact(){
         return view('backend.pages.contact');
     }
+
+    public function index(){
+        return view('adminpages.index');
+}
 }

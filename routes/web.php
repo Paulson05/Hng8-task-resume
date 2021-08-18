@@ -20,6 +20,8 @@ use Illuminate\Support\Facades\Route;
 Route::view( '/dashboard','backend.template');
 Route::get('/', [FrontendController::class, 'homePage'])->name('home.page');
 Route::get('/contact/table',  [AdminController::class, 'getContact'])->name('get.contact');
+Route::get('/admin',  [AdminController::class, 'index'])->name('admin.index');
+
 Route::get('/resume', [FrontendController::class, 'resume'])->name('resume');
 Route::get('/contactus', [FrontendController::class, 'contactUs'])->name('contact');
 Route::post('/postcontact', [ContactController::class, 'postContact'])->name('post.contact');
