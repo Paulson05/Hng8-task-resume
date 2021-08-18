@@ -41,6 +41,7 @@
 <!-- Light Dashboard DEMO methods, don't include it in your project! -->
 <script src="{{asset('/assets/js/demo.js')}}"></script>
 <script type="text/javascript">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     $(document).ready(function() {
         // Javascript method's body can be found in assets/js/demos.js
         demo.initDashboardPageCharts();
