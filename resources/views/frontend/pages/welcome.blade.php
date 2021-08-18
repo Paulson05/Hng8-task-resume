@@ -85,7 +85,7 @@
 
             <div class="section-title">
                 <h2>About</h2>
-                <p>In 2014, I joined the delta state Polytechnic ogawashi-uku,where i had my National Diploma in Electrical Electronics Enginoering, after 2 years, I moved to Auchi, Federal polytechnic for my Higher National Diplomer in Electrical Electronics Engineering.   I had my NYSC in 2019 to 2020 in Oyo State
+                <p>In 2014, I joined the delta state Polytechnic ogawashi-uku,where i had my National Diploma in Electrical Electronics Engineering, after 2 years, I moved to Auchi, Federal polytechnic for my Higher National Diplomer in Electrical Electronics Engineering.   I had my NYSC in 2019 to 2020 in Oyo State
                     I currently work as a Radio Station Engineer As a Radio Station</p>
             </div>
 
