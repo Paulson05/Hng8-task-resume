@@ -1,4 +1,5 @@
 @extends('frontend.defaults')
+@section('title', '| contact us')
 @section('content')
 <div class="hero-section section overlay" style="background-image: url('img/download.png')">
    <div class="container ">
