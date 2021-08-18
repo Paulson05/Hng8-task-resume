@@ -18,7 +18,7 @@ class ContactController extends Controller
         $array = collect($request->only(['name', 'email', 'message', 'phone_number']))->all();
        $status = Contact::create($array);
        if ($status){
-           return redirect()->route('home.page')->with('success', 'Message sent sent successfully');
+           return redirect()->route('home.page')->with('success', 'Message sent successfully');
 
        }
        else{
